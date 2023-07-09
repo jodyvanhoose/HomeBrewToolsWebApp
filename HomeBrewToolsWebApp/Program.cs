@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using HomeBrewToolsWebApp.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
+builder.Services.AddDbContext<HomeBrewToolsWebAppContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("HomeBrewToolsWebAppContext") ?? throw new InvalidOperationException("Connection string 'HomeBrewToolsWebAppContext' not found.")));
 
 var app = builder.Build();
 

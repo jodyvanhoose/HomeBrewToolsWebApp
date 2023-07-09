@@ -18655,13 +18655,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\HomeBrewLogs\\Index.cshtml",
+      "TargetPath": "Pages\\HomeBrewLogs\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\HomeBrewLogs\\Edit.cshtml",
+      "TargetPath": "Pages\\HomeBrewLogs\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\HomeBrewLogs\\Details.cshtml",
+      "TargetPath": "Pages\\HomeBrewLogs\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\HomeBrewLogs\\Delete.cshtml",
+      "TargetPath": "Pages\\HomeBrewLogs\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -18677,6 +18697,11 @@
     {
       "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\Pages\\HomeBrewLogs\\Create.cshtml",
+      "TargetPath": "Pages\\HomeBrewLogs\\Create.cshtml",
       "FileKind": "mvc"
     }
   ],
