@@ -256,3 +256,4 @@ C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\ne
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\obj\Debug\net7.0\scopedcss\Pages\Index.cshtml.rz.scp.css

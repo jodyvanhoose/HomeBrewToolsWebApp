@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
 using HomeBrewToolsWebApp.Data;
 using HomeBrewToolsWebApp.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace HomeBrewToolsWebApp.Pages.HomeBrewLogs
 {
@@ -21,12 +22,33 @@ namespace HomeBrewToolsWebApp.Pages.HomeBrewLogs
 
         public IList<HomeBrewLog> HomeBrewLog { get;set; } = default!;
 
+        [BindProperty(SupportsGet = true)]
+        public string? SearchString { get; set; }
+
+        public SelectList? Types { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public string? HomeBrewType { get; set; }
+
         public async Task OnGetAsync()
         {
-            if (_context.HomeBrewLog != null)
+            
+
+            var homeBrewLogs = from h in _context.HomeBrewLog
+                               select h;
+
+            if (!string.IsNullOrEmpty(SearchString))
             {
-                HomeBrewLog = await _context.HomeBrewLog.ToListAsync();
+                homeBrewLogs = homeBrewLogs.Where(s => s.Name.ToLower().Contains(SearchString));
             }
+
+            HomeBrewLog = await homeBrewLogs.ToListAsync();
+
+
+            //if (_context.HomeBrewLog != null)
+            //{
+            //    HomeBrewLog = await _context.HomeBrewLog.ToListAsync();
+            //}
         }
     }
 }
