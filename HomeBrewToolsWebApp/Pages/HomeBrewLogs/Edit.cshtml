@@ -5,60 +5,63 @@
     ViewData["Title"] = "Edit";
 }
 
-<h1>Edit</h1>
+<div class="container">
+    <h1>Edit</h1>
 
-<h4>HomeBrewLog</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="HomeBrewLog.Id" />
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.Name" class="control-label"></label>
-                <input asp-for="HomeBrewLog.Name" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.Type" class="control-label"></label>
-                <input asp-for="HomeBrewLog.Type" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.Type" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.StartDate" class="control-label"></label>
-                <input asp-for="HomeBrewLog.StartDate" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.StartDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.StartingGravity" class="control-label"></label>
-                <input asp-for="HomeBrewLog.StartingGravity" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.StartingGravity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.UpdatedGravity" class="control-label"></label>
-                <input asp-for="HomeBrewLog.UpdatedGravity" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.UpdatedGravity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.FinalGravity" class="control-label"></label>
-                <input asp-for="HomeBrewLog.FinalGravity" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.FinalGravity" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="HomeBrewLog.UpdatedDate" class="control-label"></label>
-                <input asp-for="HomeBrewLog.UpdatedDate" class="form-control" />
-                <span asp-validation-for="HomeBrewLog.UpdatedDate" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-primary" />
-            </div>
-        </form>
+    <h4>HomeBrewLog</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="HomeBrewLog.Id" />
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.Name" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.Name" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.Type" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.Type" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.Type" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.StartDate" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.StartDate" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.StartDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.StartingGravity" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.StartingGravity" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.StartingGravity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.UpdatedGravity" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.UpdatedGravity" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.UpdatedGravity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.FinalGravity" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.FinalGravity" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.FinalGravity" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="HomeBrewLog.UpdatedDate" class="control-label"></label>
+                    <input asp-for="HomeBrewLog.UpdatedDate" class="form-control" />
+                    <span asp-validation-for="HomeBrewLog.UpdatedDate" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-page="./Index">Back to List</a>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
