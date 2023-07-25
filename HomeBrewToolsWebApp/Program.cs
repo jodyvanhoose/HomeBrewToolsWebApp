@@ -2,6 +2,10 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using HomeBrewToolsWebApp.Data;
 using HomeBrewToolsWebApp.Models;
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using HomeBrewToolsWebApp.Validators;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +14,9 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<HomeBrewToolsWebAppContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("HomeBrewToolsWebAppContext") ?? throw new InvalidOperationException("Connection string 'HomeBrewToolsWebAppContext' not found.")));
 
+
+builder.Services.AddControllersWithViews()
+                .AddFluentValidation(cfg => cfg.RegisterValidatorsFromAssemblyContaining<HomeBrewLogValidator>());
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

@@ -257,3 +257,7 @@ C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\ne
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\obj\Debug\net7.0\scopedcss\Pages\Index.cshtml.rz.scp.css
+C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\FluentValidation.dll
+C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\FluentValidation.AspNetCore.dll
+C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\bin\Debug\net7.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\obj\Debug\net7.0\HomeBrewToolsWebApp.MvcApplicationPartsAssemblyInfo.cs

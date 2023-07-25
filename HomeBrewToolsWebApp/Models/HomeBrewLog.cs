@@ -3,6 +3,12 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace HomeBrewToolsWebApp.Models
 {
+    // The following code adheres to the Single Responsiblity principle of SOLID Programming by only
+    // defining the properties of the home brew log
+
+    // The following code also adheres to the Open/Closed principle of SOLID Programming by using the Display
+    // attribute allowing the code to be extended without modifying the existing code. This allows me to 
+    // change the display without touching the classes code dircetly 
     public class HomeBrewLog
     {
         public int Id { get; set; }

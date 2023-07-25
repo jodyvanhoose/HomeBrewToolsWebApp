@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MsZ+M0VTpd/t43hPhnf/XkoVHgsHNSSEFG54z+mUOQqQazgIFSnqvVXbtbsXifGZMKVFi0ZHlU9KAwbVt7MlsA==",
+  "dgSpecHash": "e8sqmHeA5Q9Zpk3n2XivbEIE06ms7YPogQaora4EuysJvcSzvmecPpprfi/E3nhwG8I0Ia247JDKSWbGkf+cNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\jody_\\source\\repos\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp\\HomeBrewToolsWebApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jody_\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\jody_\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\jody_\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\jody_\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\jody_\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jody_\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
