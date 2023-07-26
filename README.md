@@ -91,7 +91,7 @@
   * Implement a regular expression (regex) to ensure a field either is always stored and displayed in the same format
   * Add comments to your code explaining how you are using at least 2 of the solid principles
   * Make your application asynchronous
-  * Use Fluent validation to validate input fields to ensure appropriate outcome
+  * Use Fluent validation to validate input fields to ensure appropriate outcome(approved by Code Ky Mentors)
   * Create 3 or more unit tests for your application
 
 
