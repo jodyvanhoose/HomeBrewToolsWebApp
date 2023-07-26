@@ -9,48 +9,47 @@
 <div class="container">
     <h1>@ViewData["Title"]</h1>
 
-    <p>This is where the ABV calculator, Brix to Gravity converter, and Gravity by malt calculator will be</p>
 
     <hr />
     <div class="row">
         <div class="col-md-4">
 
-            @*<form id="my-form">*@
-                @*<div asp-validation-summary="ModelOnly" class="text-danger"></div>*@
 
-                @*ABV calculator*@
-                <div class="input-group pb-2">
-                    <span class="input-group-text">Get ABV</span>
-                    <input type="text" aria-label="Original Gravity" placeholder="Enter OG" class="form-control" id="og" />
-                    <input type="text" aria-label="Final Gravity" placeholder="Enter FG" class="form-control" id="fg" />
-                </div>
+            @*ABV calculator*@
+            <label class="control-label fs-3">ABV Calculator</label>
+            <div class="input-group pb-2">
+                <span class="input-group-text">Get ABV</span>
+                <input type="text" placeholder="Enter OG" class="form-control" id="og" />
+                <input type="text" placeholder="Enter FG" class="form-control" id="fg" />
+            </div>
 
-                <div class="input-group mb-5">
-                    <button onclick="CalculateAbv()" type="button" value="Get ABV" class="btn btn-primary" id="abv-btn">Get ABV</button>
-                    <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="abv" id="abv-display">
-                    <span class="input-group-text" id="abv">%</span>
-                </div>
+            <div class="input-group mb-5">
+                <button onclick="CalculateAbv()" type="button" value="Get ABV" class="btn btn-primary" id="abv-btn">Get ABV</button>
+                <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="abv" id="abv-display">
+                <span class="input-group-text" id="abv">%</span>
+            </div>
 
-                @*Brix to gravity converter*@
-                <div class="form-group pb-2">
-                    <label class="control-label">Brix</label>
-                    <input type="text" placeholder="Enter Brix" class="form-control" id="brix" />
-                    <span class="text-danger"></span>
-                </div>
-                <div class="input-group mb-5">
-                    <button onclick="brixConverter()" type="button" class="btn btn-primary" id="brix-btn">Convert</button>
-                    <input type="text" class="form-control" placeholder="" aria-label="Brix to Gravity" aria-describedby="gravity" id="gravity-display" />
-                    <span class="input-group-text" id="gravity">Gravity</span>
-                </div>
-
-
+            @*Brix to gravity converter*@
+            <label class="control-label fs-3">Brix to Specfic Gravity Converter</label>
+            <div class="input-group pb-2">
+                <span class="input-group-text">Brix</span>
+                <input type="text" placeholder="Enter Brix" class="form-control" id="brix" />
+                <span class="text-danger"></span>
+            </div>
+            <div class="input-group mb-5">
+                <button onclick="brixConverter()" type="button" class="btn btn-primary" id="brix-btn">Convert</button>
+                <input type="text" class="form-control" placeholder="" aria-label="Brix to Gravity" aria-describedby="gravity" id="gravity-display" />
+                <span class="input-group-text" id="gravity">Gravity</span>
+            </div>
 
 
-            @*</form>*@
+
+
         </div>
     </div>
 </div>
 
+@*javascript functions for abv and brix calculations*@
 @section Scripts{
     <script>
         const og = document.getElementById('og')

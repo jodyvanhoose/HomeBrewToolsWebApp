@@ -16,7 +16,7 @@ namespace HomeBrewToolsWebApp.Models
                     throw new ArgumentNullException("Null RazorPagesMovieContext");
                 }
 
-                // Look for any movies.
+                // Look for any logs.
                 if (context.HomeBrewLog.Any())
                 {
                     return;   // DB has been seeded

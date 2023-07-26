@@ -39,7 +39,7 @@ namespace HomeBrewToolsWebApp.Pages.HomeBrewLogs
 
             if (!string.IsNullOrEmpty(SearchString))
             {
-                homeBrewLogs = homeBrewLogs.Where(s => s.Name.Contains(SearchString));
+                homeBrewLogs = homeBrewLogs.Where(s => s.Type.Contains(SearchString));
             }
 
             HomeBrewLog = await homeBrewLogs.ToListAsync();
