@@ -18,7 +18,7 @@
             @*ABV calculator*@
             <label class="control-label fs-3">ABV Calculator</label>
             <div class="input-group pb-2">
-                <span class="input-group-text">Get ABV</span>
+                <span class="input-group-text">Gravity</span>
                 <input type="text" placeholder="Enter OG" class="form-control" id="og" />
                 <input type="text" placeholder="Enter FG" class="form-control" id="fg" />
             </div>
@@ -42,6 +42,20 @@
                 <span class="input-group-text" id="gravity">Gravity</span>
             </div>
 
+            @*Malt Extract to specfic gravity converter*@
+            <label class="control-label fs-3">Determine Specfic Gravity from Malt Extract</label>
+            <div class="input-group pb-2">
+                <span class="input-group-text">Malt/Gal</span>
+                <input type="text" placeholder="Enter LME lbs " class="form-control" id="lme" />
+                <input type="text" placeholder="Enter DME lbs" class="form-control" id="dme" />
+                <input type="text" placeholder="Enter Gallons" class="form-control" id="gallons" />
+            </div>
+
+            <div class="input-group mb-5">
+                <button onclick="maltToGravityConverter()" type="button" value="Specfic Gravity" class="btn btn-primary" id="gravity-btn">Convert</button>
+                <input type="text" class="form-control" placeholder="" aria-label="Malt to Gravity" aria-describedby="malt-gravity" id="malt-gravity-display">
+                <span class="input-group-text" id="abv">Gravity</span>
+            </div>
 
 
 
@@ -57,6 +71,10 @@
         const abvDisplay = document.getElementById('abv-display')
         const brix = document.getElementById('brix')
         const gravityDisplay = document.getElementById('gravity-display')
+        const lme = document.getElementById('lme')
+        const dme = document.getElementById('dme')
+        const gallons = document.getElementById('gallons')
+        const maltGravityDisplay = document.getElementById('malt-gravity-display')
 
         function CalculateAbv() {
             let abv = (og.value - fg.value) * 131.25
@@ -68,7 +86,21 @@
             gravityDisplay.value = specficGravity.toFixed(3)
         }
 
-       
+        function maltToGravityConverter(){
+            const lmePoints = 36
+            const dmePoints = 44
+            let totalLmePoints
+            let totalDmePoints
+            let totalPoints
+            totalLmePoints = (lmePoints * lme.value) / gallons.value
+            totalDmePoints = (dmePoints * dme.value) / gallons.value
+            totalPoints = totalLmePoints + totalDmePoints
+            let specficGravity = totalPoints / 1000.0 + 1
+            maltGravityDisplay.value = specficGravity.toFixed(3)
+
+        }
+
+
 
     </script>
 }

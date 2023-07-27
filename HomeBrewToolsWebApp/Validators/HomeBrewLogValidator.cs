@@ -25,7 +25,7 @@ namespace HomeBrewToolsWebApp.Validators
 
 
 
-        }
+        } 
         
     }
 }
