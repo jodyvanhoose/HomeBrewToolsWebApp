@@ -10,7 +10,9 @@
 
   ### Screenshots
 
-  ![](./images/homebrew_title_screenshot.png)
+  ![](./images/Homebrew_tools_home_page.png)
+  ![](./images/HomeBrew_tools_HB-tools_page.png)
+  ![](./images/Homebrew_tools_HB-logs_page.png)
 
 
   ### Instructions
