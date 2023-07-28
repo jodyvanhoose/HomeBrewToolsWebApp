@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HomeBrewToolsWebApp
 build_property.RootNamespace = HomeBrewToolsWebApp
-build_property.ProjectDir = C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\
+build_property.ProjectDir = c:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp
+build_property.MSBuildProjectDirectory = c:\Users\jody_\source\repos\HomeBrewToolsWebApp\HomeBrewToolsWebApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Error.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Create.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdMb2dzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Delete.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdMb2dzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Details.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdMb2dzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Edit.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdMb2dzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Index.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewLogs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdMb2dzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewTools.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/HomeBrewTools.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZUJyZXdUb29scy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Privacy.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/_ViewImports.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/_ViewStart.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Index.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-yqztvjh72c
 
-[C:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Shared/_Layout.cshtml]
+[c:/Users/jody_/source/repos/HomeBrewToolsWebApp/HomeBrewToolsWebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-d5abobu0dq

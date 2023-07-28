@@ -66,6 +66,22 @@
     * Brix: 12
     * Brix: 26
 
+    ----
+  * Example LME, DME, Gallons recording for Home brew tools Determine Specfic Gravity from Malt Extract for non homebrewers needing to test:
+
+    * LME: 3
+    * DME: 2
+    * Gallons: 5
+    ---
+    * LME: 6
+    * DME: 2
+    * Gallons: 5
+    ---
+    * LME: 3.3
+    * DME: 2
+    * Gallons: 5
+
+
   ___
   ### Key Features
   * Easy to navigate UI
@@ -85,6 +101,10 @@
   * Fluent Validation
   * Entity Framework
   * SQL Lite
+  * JavaScript
+  * CSS
+  * HTML
+  * XUnit Testing
   ___
 
 
